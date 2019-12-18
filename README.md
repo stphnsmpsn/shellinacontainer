@@ -1,7 +1,7 @@
 # shellinacontainer
 'shellinacontainer' sets up shellinabox inside of a docker container. 
 
-Beofre you can use this project, you must have Docker installed. On Debian based systems, I do this in the following way:
+Beofre you can use this project, you must have Docker installed. On Ubuntu based systems, I do this in the following way:
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
